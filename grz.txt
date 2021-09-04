@@ -13,13 +13,7 @@ interface TenGigabitEthernet1/1/0.22380743
  ip address 10.131.202.177 255.255.255.240
 end
 !
-interface TenGigabitEthernet1/1/0.22441824
- description UIK_TIK_grz id-92457 p/p 11204   172.30.75.76 :gi0/24 
- encapsulation dot1Q 2244 second-dot1q 1824 
- ip vrf forwarding p03v038
- ip address 10.131.209.225 255.255.255.240
-end
-!
+
 interface TenGigabitEthernet1/1/0.22380647
  description UIK_228 id-137717 p/p 11248   172.30.152.5 :Als-razriv 
  encapsulation dot1Q 2238 second-dot1q 647 
@@ -172,4 +166,18 @@ interface TenGigabitEthernet1/1/0.22380651
  encapsulation dot1Q 2238 second-dot1q 651 
  ip vrf forwarding p03v038
  ip address 10.131.202.161 255.255.255.240
+end
+!
+interface TenGigabitEthernet1/1/0.22350655
+ description UIK_TIK_grz id-92457 p/p 11204   172.30.74.170:15port 
+ encapsulation dot1Q 2235 second-dot1q 655 
+ ip vrf forwarding p03v038
+ ip address 10.131.209.225 255.255.255.240
+end
+!
+interface TenGigabitEthernet1/1/0.22093040
+ description UIK_223 id-87313 p/p 11245 172.25.65.5:24 
+ encapsulation dot1Q 2209 second-dot1q 3040
+ ip vrf forwarding p03v038
+ ip address 10.131.209.193 255.255.255.240
 end
